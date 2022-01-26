@@ -14,7 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithPath:(NSString *)path;
 @property (nonatomic, copy, readonly) NSString *entryPath;
+
 @property (nonatomic, assign) BOOL allowTrash;
+@property (nonatomic, assign) BOOL pullToReload;
+@property (nonatomic, assign) BOOL allowSearch;
 
 @end
 
